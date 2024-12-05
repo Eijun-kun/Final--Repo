@@ -44,7 +44,7 @@ function StaffPaymentMethodModal({isOpen, onClose, order, handleApprove}) {
                                         {
                         order.paymentProof && (
                             <div className='payment-proof'>
-                                <img src={`http://localhost:8000/${order.paymentProof}`}alt="" />
+                                <img src={`https://sabon-depot-frontend.vercel.app/${order.paymentProof}`}alt="" />
                             </div>
                         )
                     }

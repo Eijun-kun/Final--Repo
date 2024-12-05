@@ -207,7 +207,7 @@ function AdminDashboardPage() {
                                     <div>
                                         <>
                                             <img
-                                            src={`http://localhost:8000/${product.productId.imageUrl}`}
+                                            src={`https://sabon-depot-frontend.vercel.app/${product.productId.imageUrl}`}
                                             alt={product.productId.productName || 'Product'}
                                             />
                                             <strong>{product.productName}</strong>

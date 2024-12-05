@@ -215,7 +215,7 @@ function CustomerNavbarComponent({customerToggleSidebar}) {
                             <li className='customer-navbar-dropdown-container'>
                                 <div className='customer-navbar-dropdown-trigger' onClick={toggleDropdown}>
                                     <img
-                                    src={(customer.profilePicture ? `http://localhost:8000/${customer.profilePicture}` : customerDefaultProfilePicture)}
+                                    src={(customer.profilePicture ? `https://sabon-depot-frontend.vercel.app/${customer.profilePicture}` : customerDefaultProfilePicture)}
                                     className='profile-picture'
                                     alt={customer.fullName}
                                     />

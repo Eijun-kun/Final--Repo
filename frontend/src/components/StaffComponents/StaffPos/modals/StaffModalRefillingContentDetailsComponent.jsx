@@ -140,7 +140,7 @@ function StaffModalRefillingContentDetailsComponent({isOpen, onClose, cartItems,
                                 cartItem.productId ? (
                                     <div key={cartItem._id} className='customer-modal-content-group'>
                                         <img
-                                            src={`http://localhost:8000/${cartItem.productId.imageUrl}`}
+                                            src={`https://sabon-depot-frontend.vercel.app/${cartItem.productId.imageUrl}`}
                                             alt=''
                                             className='customer-modal-product-items'
                                         />
