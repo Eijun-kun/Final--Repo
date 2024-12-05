@@ -20,7 +20,7 @@ middleware.use(cookieParser());
 
 middleware.use(cors({
     credentials: true,
-    origin: 'http://localhost:5173',
+    origin: 'https://sabon-depot-frontend.vercel.app',
     methods: ['GET', 'POST', 'PUT', 'DELETE']
 }))
 
